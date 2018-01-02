@@ -1,0 +1,22 @@
+{
+	"extends": [
+		"airbnb-base"
+	],
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2017
+	},
+	"rules": {
+		"no-tabs": "off",
+		"indent": ["error", "tab"],
+		"no-underscore-dangle": "off",
+		"no-console": "off",
+		"import/extensions": "off",
+		"import/first": "off",
+		"import/no-unresolved": "off"
+	}
+}

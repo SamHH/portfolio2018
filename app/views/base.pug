@@ -1,0 +1,22 @@
+doctype html
+html(lang='en').u-transitions-disabled
+	head
+		block title
+			title= title
+
+		meta(name='description' content=desc)
+
+		meta(charset='utf-8')
+		meta(http-equiv='x-ua-compatible' content='ie=edge')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+
+		link(href='/static/humans.txt' rel='author' type='text/plain')
+		link(href='/static/img/meta/favicon.png' rel='icon')
+
+		link(href='/static/styles/main.css' rel='stylesheet')
+
+	body
+		block content
+
+		block scripts
+			script(type='module' src='/static/scripts/app.js')

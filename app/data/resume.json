@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Sam A. Horvath-Hunt",
+    "label": "Web Developer",
+    "email": "contact@samhh.com",
+    "website": "https://samhh.com",
+    "summary": "Hi there! I'm a full-stack web developer with an emphasis on JavaScript, and a developing passion for TypeScript, working in London. I also enjoy dabbling in systems programming with Rust.",
+    "location": {
+      "city": "London",
+      "countryCode": "GB"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "samhh",
+        "url": "https://github.com/samhh"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "samhh",
+        "url": "https://stackoverflow.com/users/3369753/samhh"
+      },
+      {
+        "network": "Twitter",
+        "username": "samhh95",
+        "url": "https://twitter.com/samhh95"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Oddschecker",
+      "position": "Mid-Weight Full-Stack Developer",
+      "website": "https://www.oddschecker.com",
+      "startDate": "2017-02-28",
+      "endDate": "Present",
+			"summary": "I am presently playing a pivotal role in architecting a greenfield B2B project, as well as a foundation for which that will be reused across future projects. I work primarily with React on the frontend and Node.js on the backend, each in the JS superset TypeScript.",
+			"highlights": ["TypeScript", "React", "Node.js", "MongoDB"]
+    },
+    {
+      "company": "Impero",
+      "position": "Junior Frontend Developer",
+      "website": "https://weareimpero.com",
+      "startDate": "2015-12-07",
+      "endDate": "2017-02-25",
+			"summary": "My work at Impero included building the frontend of campaign websites for large brands from scratch, with a little Node backend thrown in too. Towards the end of my tenure I almost single-handedly coded Impero's new company website. I worked alongside other developers to maintain large websites for brands such as Beefeater, Campo Viejo, Jacob's Creek, Pernod Ricard Winemakers, Lindt, and many more. My experience at Impero was heavily focused on enhancing my understanding of core JavaScript, sans helpers such as jQuery. My knowledge up to, including, and beyond ES2015 became very strong, primarily on the frontend but also on the backend with Node.",
+			"highlights": ["JavaScript", "Vue", "Node.js", "Stylus", "PostCSS"]
+    },
+    {
+      "company": "Perspective Publishing",
+			"position": "Apprentice Full-Stack Developer",
+			"website": "http://www.perspectivepublishing.com",
+      "startDate": "2014-03-03",
+      "endDate": "2015-12-04",
+			"summary": "After an initial, highly successful apprenticeship I quickly began designing and developing the front-end of the websites at Perspective Publishing. After creating preliminary designs I would code them in their entirety myself, always with an eye to code reuse and modularity. I also began to take on a larger role with regards to the backend whilst rewriting the internal company CMS from scratch; converging a few dozen separate but identical CMS'​ into one unified, simpler, faster experience. In addition I also spearheaded the change from archaic FTP uploads to a version control system (Git hosted on GitHub), with various tasks accomplished by Gulp during development.",
+			"highlights": ["HTML", "CSS", "Sass", "PHP", "MySQL"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bukubrow",
+      "website": "https://github.com/samhh/bukubrow",
+      "startDate": "2017-02-21",
+      "endDate": "Present",
+			"summary": "Bukubrow is a WebExtension for Buku, a command-line bookmark manager. It includes a native binary written in Rust that interfaces with the Buku database.",
+			"highlights": ["Rust", "TypeScript", "React"]
+		},
+		{
+			"name": "Open Source CTF (website)",
+			"website": "https://github.com/OpenSourceCTF/website/",
+			"startDate": "2017-08-04",
+			"endDate": "2017-12-10",
+			"summary": "This project was an ambitious attempt to recreate TagPro in an open source environment. I was team lead for the website.",
+			"highlights": ["JavaScript", "React", "Node.js", "PostgreSQL", "Docker"]
+		},
+		{
+			"name": "Portfolio",
+			"website": "https://github.com/samhh/portfolio2018",
+			"startDate": "2018-05-27",
+			"endDate": "Present",
+			"summary": "This is the portfolio you're viewing right now! I've strived to make it performant, maintainable, modern, and nonsense-free.",
+			"highlights": ["Service Workers", "Pug"]
+		}
+  ],
+  "interests": [
+		{
+			"name": "Linux",
+			"summary": "I've been tinkering with Linux for most of my life and have now settled on Arch as my long-term distro of choice. Despite that, I spend a few hours every week tinkering with new tools and better means of doing things. Naturally, this means I like to do most things on the command-line. Feel free to check out my dotfiles repo on GitHub!"
+		},
+    {
+			"name": "Gaming",
+			"summary": "One of my biggest time sinks, ahem, I mean hobbies, is PC gaming! I spend most of my gaming sessions with Rocket League, PUBG, or TagPro, or some combination thereof. I also built my PC and stay fairly up-to-date with PC hardware."
+    }
+  ],
+  "references": [
+    {
+      "description": "Available upon request."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+extend ../base
+
+block title
+	title #{title} - Portfolio
+
+append content
+	include ../components/themer
+
+	.p-portfolio.u-width-limiter
+		header.c-info
+			h1.c-info__name
+				strong= basics.name.split(' ').shift()
+				| &nbsp;
+				span= basics.name.split(' ').slice(1).join(' ')
+			ul.c-info__contact
+				li #{basics.location.city}, #{basics.location.countryCode}
+				li: a(href=`mailto:${basics.email}`) Email
+				each contact in basics.profiles
+					li: a(href=contact.url target='_blank')= contact.network
+
+		main
+			p.c-intro
+				strong= basics.label
+				| &nbsp;#{basics.summary}
+
+			blockquote.c-intro
+				q Quality is pride of workmanship.
+				| &nbsp;&mdash; W. Edwards Deming
+
+			section
+				h1.c-heading Jobs
+
+				each job in work
+					div.c-exp
+						h2.c-exp__info-primary
+							| #{job.position} at&nbsp;
+							a(href=job.website target='_blank')= job.company
+						h3.c-exp__info-secondary #{job.startDate} - #{job.endDate}
+						p.c-exp__summary= job.summary
+						ul.c-exp__tags
+							each tag in job.highlights
+								li= tag
+
+			section
+				h1.c-heading Open Source
+
+				each project in projects
+					div.c-exp
+						h2.c-exp__info-primary: a(href=project.website target='_blank')= project.name
+						h3.c-exp__info-secondary #{project.startDate} - #{project.endDate}
+						p.c-exp__summary= project.summary
+						ul.c-exp__tags
+							each tag in project.highlights
+								li= tag
+
+			section
+				h1.c-heading Hobbies
+
+				each hobby in interests
+					div.c-exp
+						h2.c-exp__info-primary= hobby.name
+						p.c-exp__summary= hobby.summary
+
+		footer
+			h1.c-heading References
+			p= references[0].description
